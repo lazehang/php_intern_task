@@ -1,0 +1,17 @@
+{
+    "name": "pagevamp/ph-intern-task",
+    "authors": [
+        {
+            "name": "Pagevamp",
+            "email": "tech@pagevamp.com"
+        }
+    ],
+    "autoload" : {
+        "psr-4" : {
+            "Classes\\" : "Classes"
+        }
+    },
+    "require": {
+        "friendsofphp/php-cs-fixer": "^2.1"
+    }
+}
