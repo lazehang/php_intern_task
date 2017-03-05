@@ -6,4 +6,5 @@ these attributes can be accessed from its own class i.e User.
 
 Class DB is an abstract class. What does that mean? and why do you think it is used?
 It means that DB class is an abstract which cannot be instantiated. It is used as the classes
-that extends this abstract class require same methods. 
+that extends this abstract class require many common methods. As DB is class for database 
+connection which is required by many functions, thus abstract class is used.   
