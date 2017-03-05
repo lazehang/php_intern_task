@@ -1,0 +1,9 @@
+Questions
+
+Attributes firstName, lastName and email in User.php are private, What does that mean?
+here, firstName, lastName and email in User.php is declared as private which means that 
+these attributes can be accessed from its own class i.e User.
+
+Class DB is an abstract class. What does that mean? and why do you think it is used?
+It means that DB class is an abstract which cannot be instantiated. It is used as the classes
+that extends this abstract class require same methods. 
